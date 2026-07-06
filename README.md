@@ -19,15 +19,18 @@ The author does not take any responsibility for any misuse of this code.
 - Google Colab
 
 ## 📚 Features
-- Chaotic key generation using Logistic Map  
-- Parameter optimization using PSO  
-- Image permutation and diffusion stages  
-- Encryption and decryption pipeline  
-- Security analysis (NPCR, UACI, Entropy)
+- Chaotic key generation using Logistic Map
+- Parameter optimization using PSO
+- Image permutation and diffusion stages
+- Encryption and decryption pipeline
+- Security evaluation including entropy, NPCR, UACI, noise, key sensitivity, and geometric attack analysis
 
 ## 🔐 Security Evaluation
 
 Additional experiments were performed to evaluate the robustness of the encryption algorithm.
+
+These experiments are provided as additional security evaluations and are not considered modifications to the original encryption algorithm.
+
 The following security tests are included:
 
 ### Noise Attack Analysis
@@ -51,4 +54,4 @@ File:
 Evaluation of algorithm behavior under image cropping attacks.
 
 ## 📖 Note
-This repository is part of a university assignment and is not intended for real-world cryptographic deployment.
+This repository is part of a university assignment and is not intended for real-world security applications.
